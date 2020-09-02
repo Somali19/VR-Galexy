@@ -1,8 +1,12 @@
+<html>
+<head>
 <script src="https://aframe.io/releases/0.5.0/aframe.min.js">
 var layout = require('aframe-layout').component;
 require('aframe-core').registerComponent('layout', layout);
 </script>
+</head>
 
+<body>
 <a-scene >
     <a-assets>
     <img id="galaxy" src="ihttps://s3-us-west-2.amazonaws.com/s.cdpn.io/780593/galaxy.jpg">
@@ -86,3 +90,6 @@ require('aframe-core').registerComponent('layout', layout);
   <a-sky src="background.jpg" rotation="0 -90 0"></a-sky>
 <a-light intensity="3" color="#FFF" position="-1 1 0"></a-light>
 </a-scene>
+
+</body>
+</html>
